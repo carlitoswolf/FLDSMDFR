@@ -5,6 +5,10 @@
     <ContentPage.Content>
         <StackLayout>
 
+
+            <Image x:Name="foto" WidthRequest="100" HeightRequest="200"/>
+            <Button x:Name="btnfoto" Text="Tomar" Clicked="btnfoto_Clicked"/>
+
             <Entry Keyboard="Text" Placeholder="Ingrese su nombre" x:Name="_nombre"/>
             <Entry Keyboard="Text" Placeholder="Ingrese su apellidos" x:Name="_apellidos"/>
             <DatePicker x:Name="_fechanac"/>

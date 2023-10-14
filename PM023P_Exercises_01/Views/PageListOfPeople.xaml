@@ -1,7 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="PM023P_Exercises_01.Views.PageListOfPeople">
+             x:Class="PM023P_Exercises_01.Views.PageListOfPeople"
+             xmlns:conver="clr-namespace:PM023P_Exercises_01.Controllers">
+
+    <ContentPage.Resources>
+        <conver:ByteArrayImage x:Key="ByteArray"/>
+    </ContentPage.Resources>
     
     
     <ContentPage.ToolbarItems>
@@ -21,10 +26,32 @@
 
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <StackLayout>
-                        <Label Text="{Binding nombres}" FontSize="Header"/>
-                        <Label Text="{Binding apellidos}" FontSize="Default"/>
-                    </StackLayout>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Grid.Column="0" 
+                               x:Name="imagen"
+                               WidthRequest="100"
+                               HeightRequest="100"
+                               Source="{Binding foto, Converter={StaticResource ByteArray} }"/>
+
+                        <Label Grid.Column="1" Text="{Binding nombres}"/>
+                        <Label Grid.Column="2" Text="{Binding apellidos}"/>
+
+                    </Grid>
+                    
+                    <!-- <StackLayout>
+                    <Label Text="{Binding nombres}" FontSize="Header"/>
+                    <Label Text="{Binding apellidos}" FontSize="Default"/>
+                    </StackLayout>-->
                 </DataTemplate>
             </CollectionView.ItemTemplate>
             
