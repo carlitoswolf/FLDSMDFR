@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM023P_Exercises_01.Views.PagePersonas">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Entry Keyboard="Text" Placeholder="Ingrese su nombre" x:Name="_nombre"/>
+            <Entry Keyboard="Text" Placeholder="Ingrese su apellidos" x:Name="_apellidos"/>
+            <DatePicker x:Name="_fechanac"/>
+            <Entry Keyboard="Numeric" Placeholder="Ingrese su telefono" x:Name="_telefono"/>
+            <Button x:Name="btnProcess" Text="Procesar" Clicked="btnProcess_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
