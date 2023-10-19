@@ -11,6 +11,7 @@
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Agregar" Clicked="ToolbarItem_Clicked" />
+        <ToolbarItem Text="Mapa" Clicked="ToolbarItem_Clicked_1" />
     </ContentPage.ToolbarItems>
 
 

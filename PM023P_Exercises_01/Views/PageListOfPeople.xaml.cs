@@ -34,5 +34,9 @@ namespace PM023P_Exercises_01.Views
             list.ItemsSource = await App.Instancia.GetListPople();
         }
 
+        private async void ToolbarItem_Clicked_1(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Views.PageMap());
+        }
     }
 }

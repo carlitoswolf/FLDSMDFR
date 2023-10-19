@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DBEwjUAa2VH5DK84o3ZIMSdaaol5lc1j9PgGLAHjtGBfeylr8C9xZFxzlSC0YjjIvmig997jkXV8iwhY11FeaQ==",
+  "dgSpecHash": "be6Ud++JITs7V0c6zL/hnsyoHk6UNo0+oaeLeHigeQRzezl9JH+zGLb8D9+H2prS2/6GQaOchgOQA//afiDi/w==",
   "success": true,
   "projectFilePath": "C:\\Practices\\PM023P_Exercises_01\\PM023P_Exercises_01\\PM023P_Exercises_01.csproj",
   "expectedPackageFiles": [
@@ -15,9 +15,11 @@
     "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\xam.plugin.geolocator\\4.5.0.6\\xam.plugin.geolocator.4.5.0.6.nupkg.sha512",
     "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\xam.plugin.media\\6.0.2\\xam.plugin.media.6.0.2.nupkg.sha512",
     "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\xamarin.essentials\\1.8.0\\xamarin.essentials.1.8.0.nupkg.sha512",
-    "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512"
+    "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\xamarin.forms\\5.0.0.2612\\xamarin.forms.5.0.0.2612.nupkg.sha512",
+    "C:\\Users\\Carlos Raul Cabrera\\.nuget\\packages\\xamarin.forms.maps\\5.0.0.2612\\xamarin.forms.maps.5.0.0.2612.nupkg.sha512"
   ],
   "logs": []
 }
